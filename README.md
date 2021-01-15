@@ -1,5 +1,6 @@
 <!-- ix-docs-ignore -->
 ![imgix logo](https://assets.imgix.net/sdk-imgix-logo.svg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimgix%2Fimgix-swift.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimgix%2Fimgix-swift?ref=badge_shield)
 
 `imgix-swift` is a client library for generating image URLs with [imgix](https://www.imgix.com/). Written in Swift, but can be used with Objective-C codebases as well.
 
@@ -144,3 +145,7 @@ client.reconstruct(originalURL: inputUrl, params: [
 ### What is the `ixlib` param
 
 For security and diagnostic purposes, we default to signing all requests with the language and version of library used to generate the URL. This can be disabled by setting `client.includeLibraryParam = false`.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimgix%2Fimgix-swift.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimgix%2Fimgix-swift?ref=badge_large)
